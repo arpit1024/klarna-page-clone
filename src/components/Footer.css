@@ -1,0 +1,28 @@
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 400px;
+  align-items: center;
+}
+.footer-container ul {
+  display: flex;
+  flex-direction: column;
+  line-height: 42px;
+}
+.footer-container ul li {
+  color: white;
+}
+@media screen and (max-width: 900px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 400px;
+    align-items: center;
+  }
+}
